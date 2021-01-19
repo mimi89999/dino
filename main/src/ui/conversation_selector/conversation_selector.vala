@@ -32,6 +32,7 @@ public class ConversationSelector : ListBox {
     }
 
     construct {
+        get_style_context().add_class("sidebar");
         set_header_func(header);
         set_sort_func(sort);
 
