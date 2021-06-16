@@ -13,6 +13,7 @@ find_packages(MAIN_PACKAGES REQUIRED
     GTK3
     ICU
     Gspell
+    Handy
 )
 
 set(RESOURCE_LIST
